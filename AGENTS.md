@@ -11,3 +11,4 @@
 
 - Keep the hook-list scroll connection local to Hero, using measured marker positions and a scoped CSS progress variable so other page animations remain independent.
 - Render the first-fold background and ambient particles as decorative layers in Hero with global semantic tokens, so content and existing animations remain independent of the artwork.
+- After implementing and validating requested changes, commit them and push to the connected `main` branch so they sync to Lovable. Never force-push; preserve unrelated user changes.

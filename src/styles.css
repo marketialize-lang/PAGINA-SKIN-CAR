@@ -149,6 +149,9 @@
   box-shadow: var(--shadow-signal-ring);
 }
 
+.active-card summary::-webkit-details-marker { display: none; }
+.active-card summary:hover .active-card-toggle { border-color: var(--ink); }
+
 .cursor-blob {
   position: fixed;
   top: 0;
