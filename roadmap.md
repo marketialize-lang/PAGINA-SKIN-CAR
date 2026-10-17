@@ -1,0 +1,2 @@
+- [x] Remover a mulher e manter fundo vermelho com pequenos pontos animados.
+- [x] Verificar movimento lateral dos títulos no mouse e conexão dos pontos no scroll.
