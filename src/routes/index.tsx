@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Hero } from "@/components/landing/Hero";
 import { Mechanism } from "@/components/landing/Mechanism";
 import { Actives } from "@/components/landing/Actives";
+import { Problem } from "@/components/landing/Problem";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -92,6 +93,7 @@ function Index() {
       <Hero />
       <Mechanism />
       <Actives />
+      <Problem />
     </main>
   );
 }
